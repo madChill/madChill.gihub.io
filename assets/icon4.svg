@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199" height="176" viewBox="0 0 199 176">
+    <defs>
+        <filter id="jeh3tfik1b" width="114.2%" height="116.2%" x="-7.1%" y="-5.6%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="1" result="shadowSpreadOuter1"/>
+            <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0352941176 0 0 0 0 0.117647059 0 0 0 0 0.258823529 0 0 0 0.25 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation=".5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.0352941176 0 0 0 0 0.117647059 0 0 0 0 0.258823529 0 0 0 0.31 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <filter id="kqoph34ouf">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+        <rect id="by2d64e4ca" width="183" height="160" x="0" y="0" rx="8"/>
+        <path id="m1ofsdk2ld" d="M9.44.015c5.212 0 9.437 4.225 9.437 9.437S14.652 18.89 9.44 18.89.003 14.664.003 9.452 4.228.015 9.44.015z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-207 -373) translate(215 377)">
+                    <mask id="6n4ax0gndc" fill="#fff">
+                        <use xlink:href="#by2d64e4ca"/>
+                    </mask>
+                    <g>
+                        <use fill="#000" filter="url(#jeh3tfik1b)" xlink:href="#by2d64e4ca"/>
+                        <use fill="#005DB2" xlink:href="#by2d64e4ca"/>
+                    </g>
+                    <g mask="url(#6n4ax0gndc)" opacity=".076">
+                        <g>
+                            <g transform="rotate(80 90.596 109.313) translate(5)">
+                                <mask id="2qzl0pcive" fill="#fff">
+                                    <use xlink:href="#m1ofsdk2ld"/>
+                                </mask>
+                                <path fill="#FAD141" d="M-1.287 2.475L20.168 2.475 20.168 1.719-1.287 1.719zM-1.287.74L20.168.74 20.168-.017-1.287-.017zM-1.287 4.211L20.168 4.211 20.168 3.454-1.287 3.454zM-1.287 5.946L20.168 5.946 20.168 5.189-1.287 5.189zM-1.287 7.681L20.168 7.681 20.168 6.925-1.287 6.925zM-1.287 9.417L20.168 9.417 20.168 8.66-1.287 8.66zM-1.287 11.152L20.168 11.152 20.168 10.395-1.287 10.395zM-1.287 12.887L20.168 12.887 20.168 12.131-1.287 12.131zM-1.287 14.623L20.168 14.623 20.168 13.866-1.287 13.866zM-1.287 16.358L20.168 16.358 20.168 15.601-1.287 15.601zM-1.287 18.093L20.168 18.093 20.168 17.337-1.287 17.337zM-1.287 19.829L20.168 19.829 20.168 19.072-1.287 19.072z" mask="url(#2qzl0pcive)"/>
+                            </g>
+                            <path stroke="#49CED9" stroke-width="3" d="M47.317 10.022c8.549.451 15.113 7.747 14.661 16.295-.452 8.549-7.747 15.113-16.295 14.661-8.549-.451-15.112-7.747-14.661-16.295.451-8.548 7.747-15.112 16.295-14.661z" transform="rotate(80 90.596 109.313)"/>
+                            <path fill="#49CED9" d="M41.317 26.022c8.549.451 15.113 7.747 14.661 16.295-.452 8.549-7.747 15.113-16.295 14.661-8.549-.451-15.113-7.747-14.661-16.295.452-8.549 7.747-15.113 16.295-14.661" transform="rotate(80 90.596 109.313)"/>
+                            <path fill="#FAD141" d="M13.16 54.018c6.893.363 12.186 6.247 11.822 13.14-.364 6.895-6.247 12.188-13.141 11.824C4.947 78.618-.346 72.734.018 65.842c.364-6.895 6.247-12.188 13.141-11.824" transform="rotate(80 90.596 109.313)"/>
+                        </g>
+                    </g>
+                </g>
+                <g filter="url(#kqoph34ouf)" transform="translate(-207 -373) translate(215 377)">
+                    <g>
+                        <path d="M0 0L48 0 48 48 0 48z" transform="translate(68 16)"/>
+                        <path fill="#000" d="M41 22h-3v-8c0-2.2-1.8-4-4-4h-8V7c0-2.76-2.24-5-5-5s-5 2.24-5 5v3H8c-2.2 0-3.98 1.8-3.98 4v7.6H7c2.98 0 5.4 2.42 5.4 5.4 0 2.98-2.42 5.4-5.4 5.4H4V40c0 2.2 1.8 4 4 4h7.6v-3c0-2.98 2.42-5.4 5.4-5.4 2.98 0 5.4 2.42 5.4 5.4v3H34c2.2 0 4-1.8 4-4v-8h3c2.76 0 5-2.24 5-5s-2.24-5-5-5z" transform="translate(68 16)"/>
+                    </g>
+                </g>
+                <text fill="#FFF" fill-opacity=".87" font-family="Roboto-Medium, Roboto, sans-serif" font-size="16" font-weight="400" letter-spacing=".114" transform="translate(-207 -373) translate(215 377)">
+                    <tspan x="18.756" y="95">TƯ VẤN SẢN PHẨM </tspan> <tspan x="59.827" y="119">DỊCH VỤ </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

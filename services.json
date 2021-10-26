@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "type": "Nộp, rút tiền mặt",
+      "icon": "/assets/icon1.svg",
+      "bg": "/assets/bg-payment.svg",
+      "subType": [
+        "Dưới 100 triệu",
+        "Từ 100 triệu - Dưới 200 triệu",
+        "Từ 200 - Dưới 500 triệu",
+        "Từ 500 triệu - Dưới 1 tỷ",
+        "Từ 1 tỷ - Dưới 2 tỷ",
+        "Từ 2 tỷ trở lên"
+      ]
+    },
+    {
+      "type": "Chuyển khoản/ thanh toán/ trả nợ",
+      "icon": "/assets/icon2.svg",
+      "bg": "/assets/bg-money.svg",
+      "subType": null
+    },
+    {
+      "type": "Giao dịch không tiền mặt",
+      "icon": "/assets/icon3.svg",
+      "bg": "/assets/bg-non-finance.svg",
+      "subType": [
+        "Mở tài khoản, thẻ, ngân hàng điện tử",
+        "Sửa đổi thông tin khách hàng/dịch vụ",
+        "Xác nhận số dư/sao kê/sổ phụ/hoá đơn",
+        "Tra soát giao dịch",
+        "Nhận thẻ/pin"
+      ]
+    },
+    {
+      "type": "Tư vấn các sản phẩm/ dịch vụ",
+      "icon": "/assets/icon4.svg",
+      "bg": "/assets/bg-service.svg",
+      "subType": [
+        "Mở thẻ tín dụng, vay tín chấp",
+        "Vay mua xe ô tô",
+        "Vay mua nhà",
+        "Vay vốn KHDN",
+        "Tài trợ thương mại (LC, Bảo lãnh…)"
+      ]
+    },
+    {
+      "type": "Tiết kiệm",
+      "icon": "/assets/icon5.svg",
+      "bg": "/assets/bg-service.svg",
+      "subType": null
+    },
+    {
+      "type": "Khác",
+      "icon": "/assets/icon6.svg",
+      "bg": "/assets/bg-service.svg",
+      "subType": "freetext"
+    }
+  ]
+}

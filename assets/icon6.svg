@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199" height="176" viewBox="0 0 199 176">
+    <defs>
+        <filter id="d585m8d51b" width="114.2%" height="116.2%" x="-7.1%" y="-5.6%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="1" result="shadowSpreadOuter1"/>
+            <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0352941176 0 0 0 0 0.117647059 0 0 0 0 0.258823529 0 0 0 0.25 0"/>
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation=".5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.0352941176 0 0 0 0 0.117647059 0 0 0 0 0.258823529 0 0 0 0.31 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <filter id="1ay3vzt4od">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+        <rect id="uyjq5ltpma" width="183" height="160" x="0" y="0" rx="8"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-207 -549) translate(215 553)">
+                    <mask id="0whu06jtrc" fill="#fff">
+                        <use xlink:href="#uyjq5ltpma"/>
+                    </mask>
+                    <g>
+                        <use fill="#000" filter="url(#d585m8d51b)" xlink:href="#uyjq5ltpma"/>
+                        <use fill="#C6D61A" xlink:href="#uyjq5ltpma"/>
+                    </g>
+                    <path fill="#E9F475" d="M124.263 -17L71.615 24.12 136 10.307 114 48.714 167 33 160.187 40.9 199 24.12 199 -27.13z" mask="url(#0whu06jtrc)" opacity=".316"/>
+                </g>
+                <g filter="url(#1ay3vzt4od)" transform="translate(-207 -549) translate(215 553)">
+                    <g>
+                        <path d="M0 0L48 0 48 48 0 48z" transform="translate(68 16)"/>
+                        <path fill="#000" d="M40 4H8C5.78 4 4 5.78 4 8v22c0 2.22 1.78 4 4 4h8v10l8-4 8 4V34h8c2.22 0 4-1.78 4-4V8c0-2.22-1.78-4-4-4zm0 26H8v-4h32v4zm0-10H8V8h32v12z" transform="translate(68 16)"/>
+                    </g>
+                </g>
+                <text fill="#FFF" fill-opacity=".87" font-family="Roboto-Medium, Roboto, sans-serif" font-size="16" font-weight="400" letter-spacing=".114" transform="translate(-207 -549) translate(215 553)">
+                    <tspan x="69.51" y="95">KHÁC</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

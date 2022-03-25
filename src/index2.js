@@ -7,7 +7,7 @@ let qrcode = new QrCodeWithLogo({
   image: document.getElementById("image"),
   logo: {
     // src: "https://madchill.github.io/star.svg"
-    src: "../dist/assets/hexagon-svgrepo-com.svg"
+    src: "https://madchill.github.io/assets/hexagon-svgrepo-com.svg"
   }
 });
 

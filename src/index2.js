@@ -6,12 +6,17 @@ let qrcode = new QrCodeWithLogo({
   //   download: true,
   image: document.getElementById("image"),
   logo: {
-    src: "https://madchill.github.io/star.svg"
+    // src: "https://madchill.github.io/star.svg"
+    src: "../dist/assets/hexagon-svgrepo-com.svg"
   }
 });
 
+// document.getElementById("").onclick = function(){
+  
+// };
 qrcode.toCanvas().then(() => {
   qrcode.toImage().then(() => {
-    qrcode.downloadImage("hello world");
+    // qrcode.downloadImage("hello world");
   });
 });
+

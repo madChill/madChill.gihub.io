@@ -7,12 +7,24 @@
 }
 body{
     background-color: #cccccc;
-    background-image: url("./assets/IMG_0297333.jpg");
-    background-size: 100% 90%;
-    background-repeat: no-repeat;
+    /* background-image: url("./assets/IMG_0297333.jpg"); */
+    
+}
+@media only screen and (max-width: 768px) {
+    .container {
+      background-image: url('./assets/IMG_029711mobile11.jpg');
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        background-image: url("./assets/IMG_029711.JPG");
+    }
 }
 
 .container {
+    /* margin-bottom: 40%; */
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 40px 0;
     /* background-color: #ccc; */
     
@@ -29,7 +41,8 @@ body{
     border-radius: 10px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    position: relative
+    position: relative;
+    margin-bottom: 40%;
 }
 
 .overlay {

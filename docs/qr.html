@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=vietnamese" rel="stylesheet">
+    <title>profile by Keith</title>
+</head>
+
+<body>
+    <!-- <img src="./assets/IMG_0297333.jpg" style="width: 80%;" id="image1" alt=""> -->
+    <!-- <img id="image" alt=""> -->
+    <canvas id="canvas"></canvas> 
+
+</body>
+<script>
+    var userimage = document.querySelector("#userimage");
+    var overlay = document.querySelector(".overlay");
+    var cross = document.querySelector(".overlay .fa-close");
+    userimage.addEventListener('click', function () {
+        overlay.classList.remove('d-none');
+    });
+
+
+    cross.addEventListener('click', function () {
+        overlay.classList.add('d-none');
+    });
+</script>
+<script src="main.js" async>
+</script>
+
+</html>
